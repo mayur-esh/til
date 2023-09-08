@@ -7,3 +7,6 @@ This is enabled by .NET when PowerShell uses the System.Diagnostics.Process clas
 Sources:
 https://www.leeholmes.com/why-is-sedebugprivilege-enabled-in-powershell/
 https://github.com/dotnet/corefx/blob/master/src/System.Diagnostics.Process/src/System/Diagnostics/ProcessManager.Windows.cs#L129
+
+### PowerShell snippet for RTLO 
+``Rename-Item -Path GetSymbol.exe -NewName ("DSC-Image" + ( [char]0x202E) + "gepj.exe")``
